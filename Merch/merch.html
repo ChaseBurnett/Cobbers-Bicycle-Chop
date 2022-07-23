@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="merch.css">
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+              <div class="dropdown-content">
+                <a href="/index.html">Home</a>
+                <a href="/Merch/merch.html">Merch</a>
+                <a href="/Repairs/Repairs.html">Repairs</a>
+                <a href="/Reviews/Reviews.html">Reviews</a>
+                <a href="/about/about.html">About</a>
+              </div>
+        <h1>Merch</h1>
+        <form name="Bikes">
+            <fieldset>
+                <legend>Cart</legend>
+                <label>Item:<input type="text" name="data"></label>
+                <label>Quantity: <input type="text" name="data"></label>
+                <input type="button" value="Save"   onclick="SaveItem()">
+                <input type="button" value="Update" onclick="ModifyItem()">
+                <input type="button" value="Delete" onclick="RemoveItem()">
+                <label for="name bike">Type of Bike</label>
+                <select name="type-of-bike" id="bike">
+                    <option value="road">Road</option>
+                    <option value="Mountian">Mountian</option>
+                    <option value="Touring Bike">Touring Bike</option>
+                    <option value="Folding Bike">Folding Bike</option>
+                    <option value="Fixed Gear/Track Bike">Fixed Gear/Track Bike</option>
+                    <option value="BMX">BMX</option>
+                    <option value="Recumbent Bike">Recumbent Bike</option>
+                    <option value="Cruiser">Cruiser</option>
+                    <option value="e-bike">E-Bike</option>
+            </fieldset>
+            <div id="items_table">
+                <h2>Bikes</h2>
+                <table id="list"></table>
+                <label><input type="button" value="Clear" onclick="ClearAll()">
+                * Delete all items</label>
+            </div>
+            <div class="Bike-Types"></div>
+            <section>
+                <h1>Road Bikes</h1>
+                <p>Price: 1500</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBB_RQaag6oKN_IxxH-8_o-qobsr-kpw3fVAmO6F1Wm24F4xCZyTzQUcPTDr39UuKSXo&usqp=CAU" alt="">
+                </section>
+                <section>
+                    <p>Price: 499</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUOQ2iNpk1oDt2yTNjw5d_PBA7vqqVG26mIQ&usqp=CAU" alt="">
+                </section>
+            <section>
+                <h1>Mountain Bikes</h1>
+                <p>Price:1300</p>
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRsm4V1YPxiJiCOB6KsSM2P0PLLjIwTgMOAKWZI9G7A2c36SCRuv4k8PUhlptW-7Fp8m5HVOP9GKoaCIqMyRJY6eeMtPVK7TxPRXNbz39eUUuM8uUi72xiI&usqp=CAE" alt="">
+            </section>
+            <section>
+                <p>Price: 500</p>
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTE9A39Cgy6_Zrvu7LiuXSEA22NMuwa6TLkeMioLtIcC84hasU9DBLIyhd62-eRKDFYZi8-hDDMP_TFyTAjQpSgWtKUKejD3V7skOdouHCzx74slToDn8j3ow&usqp=CAE" alt="">
+            </section>
+         </form>
+        <script src="" async defer></script>
+    </body>
+</html>
