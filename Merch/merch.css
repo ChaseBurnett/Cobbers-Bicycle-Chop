@@ -1,9 +1,9 @@
-body{
-    background-color: blanchedalmond;
-    text-align: center;
-
-}
-
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
 /* Dropdown Button */
 .dropbtn {
 background-color: #04AA6D;
@@ -49,7 +49,3 @@ display: block;
 fieldset{
 border: none
 };
-.Bike-Types {
-    display: flex;
-    align-items: flex-start;
-}
