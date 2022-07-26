@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://media2.giphy.com/media/gU25raLP4pUu4/200.webp?cid=ecf05e47ngrf2hpzhae3rzccd1fzostu7n173u54vv27uask&rid=200.webp&ct=g);
+}
+
+h1{
+    color: fuchsia;
+}
+h1:hover{
+    color: coral;
+}
+
+h3{
+    color: fuchsia;
+}
+h3:hover{
+    color: coral;
+}
+
+h2{
+    border-color: crimson;
+    color: aqua;
+}
+h2:hover{
+    color: coral;
+}
+
+.exit {
+    border: ridge limegreen 10px;
+}
+
