@@ -1,4 +1,4 @@
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -13,10 +13,8 @@ body {
     font-family: fantasy;
     font-size: 25px;
   }
-  
-button:hover {color: red;}
 
-h1{
+h1 {
   border: solid black;
   background-color: white;
   text-align: center;
@@ -49,6 +47,9 @@ text-align: left;
 .dropdown {
 position: relative;
 display: inline-block;
+top: 50%;
+right: 0;
+min-width: 160px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -71,7 +72,7 @@ min-width: 160px;
   justify-content: left;
 }
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: red}
+.dropdown-content a:hover {background-color: white}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
