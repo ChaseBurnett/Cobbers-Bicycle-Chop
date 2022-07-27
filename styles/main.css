@@ -42,3 +42,26 @@
 fieldset{
     width: 400px;
 }
+
+body{
+  background-image: url(https://media2.giphy.com/media/xT0GqkHupbd8wPOP8A/giphy.webp?cid=ecf05e47lruzdaxlqqg5clo0xutswlq8beftwcxon6hbhgsw&rid=giphy.webp&ct=g);
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  font-size: 75px;
+  color: aliceblue;
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+}
+
+.logo{
+text-align: center;
+margin-top: 0px;
+
+}
