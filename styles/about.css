@@ -1,6 +1,12 @@
 body{
-    background-color: blanchedalmond;
+    background-color: #E74B32;
     text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Dropdown Button */
@@ -28,8 +34,6 @@ display: none;
 position: absolute;
 background-color: #f1f1f1;
 min-width: 160px;
-
-
 }
 
 /* Links inside the dropdown */
@@ -41,14 +45,25 @@ display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: red}
+.dropdown-content a:hover {background-color: white}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 fieldset{
 border: none
 };
+
+
+ #page-logo{
+  position: relative;}
+
+#page-logo img{ 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
