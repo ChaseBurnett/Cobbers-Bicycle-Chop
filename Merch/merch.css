@@ -14,9 +14,18 @@ body {
     font-size: 25px;
   }
 
+  #Logo {
+    position: relative;
+    
+  }
+  #Logo img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
 h1 {
-  border: solid black;
-  background-color: white;
+ 
   text-align: center;
  
 }
