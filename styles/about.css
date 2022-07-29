@@ -3,6 +3,21 @@ body{
     text-align: center;
 }
 
+h1{
+font-size: 50px;
+border-bottom: rgb(180, 180, 23) 20px inset;
+}
+
+h3{
+  font-size: 35px;
+}
+
+p{
+  font-size: 25px;
+  background-color: aliceblue;
+  border: black 10px double;
+}
+
 header{
   display: flex;
   justify-content: space-between;
